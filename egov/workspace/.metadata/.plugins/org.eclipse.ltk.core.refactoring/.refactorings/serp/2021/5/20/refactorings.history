@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;serp/src/main/resources/sql/system/Comcombo.xml&apos; to &apos;ComcomboMapper.xml&apos;" description="Rename resource &apos;Comcombo.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/sql/system/Comcombo.xml" name="ComcomboMapper.xml" stamp="1620718903275" updateReferences="true"/>
+</session>

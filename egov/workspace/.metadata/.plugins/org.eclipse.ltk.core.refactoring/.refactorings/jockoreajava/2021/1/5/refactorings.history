@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jockoreajava/src/main/resources/sql/sample/ComnCodMapper.xml&apos; to &apos;SampleComnCodMapper.xml&apos;" description="Rename resource &apos;ComnCodMapper.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/sql/sample/ComnCodMapper.xml" name="SampleComnCodMapper.xml" stamp="1611544472770" updateReferences="true"/>
+</session>

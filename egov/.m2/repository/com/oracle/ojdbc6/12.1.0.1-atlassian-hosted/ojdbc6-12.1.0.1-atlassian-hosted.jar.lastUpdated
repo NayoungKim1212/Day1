@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Apr 01 09:08:06 KST 2020
+http\://repo.spring.io/libs-milestone/.error=Could not transfer artifact com.oracle\:ojdbc6\:jar\:12.1.0.1-atlassian-hosted from/to mesir-repo (http\://repo.spring.io/libs-milestone/)\: Access denied to http\://repo.spring.io/libs-milestone/com/oracle/ojdbc6/12.1.0.1-atlassian-hosted/ojdbc6-12.1.0.1-atlassian-hosted.jar. Error code 403, Forbidden
+https\://repo.maven.apache.org/maven2/.lastUpdated=1585699686947
+@default-mesir-repo-http\://repo.spring.io/libs-milestone/.lastUpdated=1585699676615
+https\://repo.maven.apache.org/maven2/.error=

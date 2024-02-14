@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="Sample">
+
+    <typeAlias  alias="UserVO" type="com.nexacro.Login.vo.UserVO"/>
+
+<!-- Sample resultObject -->
+    <resultMap id="user" class="UserVO">
+        <result property="userId" column="userId" />
+        <result property="userName" column="USER_NAME" />
+        <result property="enName" column="EN_NAME" />
+        <result property="compPhone" column="COMP_PHONE" />
+        <result property="phone" column="PHONE" />
+        <result property="cellPhone" column="CELL_PHONE" />
+        <result property="company" column="COMPANY" />
+        <result property="jobPosition" column="JOB_POSITION" />
+        <result property="assignment" column="ASSIGNMENT" />
+        <result property="officerYn" column="OFFICER_YN" />
+        <result property="fax" column="FAX" />
+        <result property="zipCode" column="ZIP_CODE" />
+        <result property="address" column="ADDRESS" />
+        <result property="compZipCode" column="COMP_ZIP_CODE" />
+        <result property="compAddress" column="COMP_ADDRESS" />
+        <result property="email" column="EMAIL" />
+        <result property="deptId" column="DEPT_ID" />
+        <result property="password" column="PASSWORD" />
+    </resultMap>
+    
+ 	<select id="user.login" parameterClass="nexacroSampleVO" resultMap="sample">
+             SELECT
+	                loginID
+	               ,user_type 
+	               ,password 
+            FROM tb_userinfo  
+            WHERE 1=1
+            <dynamic>
+                <isNotNull property="searchKeyword">
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="TITLE">
+                        TITLE LIKE '%' || #searchKeyword# || '%'
+                    </isEqual>
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="CONTENTS">
+                        CONTENTS LIKE '%' || #searchKeyword# || '%' 
+                    </isEqual>
+                </isNotNull>
+            </dynamic>
+    </select>
+            
+    </select>
+    
+    <select id="nexacroSample.selectSampleMapList" parameterClass="Map" resultMap="sampleMap">
+            SELECT
+                A.TITLE AS TITLE, 
+                A.REG_ID AS REG_ID, 
+                A.REG_DATE AS REG_DATE, 
+                A.POST_ID AS POST_ID, 
+                A.CONTENTS AS CONTENTS, 
+                A.COMMUNITY_ID AS COMMUNITY_ID,
+                A.HIT_COUNT AS HIT_COUNT
+            FROM TB_BOARD A
+            WHERE 1=1
+            <dynamic>
+                <isNotNull property="searchKeyword">
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="TITLE">
+                        TITLE LIKE '%' || #searchKeyword# || '%'
+                    </isEqual>
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="CONTENTS">
+                        CONTENTS LIKE '%' || #searchKeyword# || '%' 
+                    </isEqual>
+                </isNotNull>
+            </dynamic>
+    </select>
+    
+    <select id="nexacroSample.selectSampleCount" parameterClass="nexacroSampleVO" resultClass="int">
+            SELECT
+                COUNT(*) as totalCount
+            FROM TB_BOARD A
+            WHERE 1=1
+            <dynamic>
+                <isNotNull property="searchKeyword">
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="TITLE">
+                        TITLE LIKE '%' || #searchKeyword# || '%'
+                    </isEqual>
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="CONTENTS">
+                        CONTENTS LIKE '%' || #searchKeyword# || '%' 
+                    </isEqual>
+                </isNotNull>
+            </dynamic>
+    </select>
+    
+	<select id="nexacroSample.selectSamplePaging" parameterClass="nexacroSampleVO" resultMap="sample">
+            SELECT
+                A.TITLE AS TITLE, 
+                A.REG_ID AS REG_ID, 
+                A.REG_DATE AS REG_DATE, 
+                A.POST_ID AS POST_ID, 
+                A.CONTENTS AS CONTENTS, 
+                A.COMMUNITY_ID AS COMMUNITY_ID,
+                A.HIT_COUNT AS HIT_COUNT
+            FROM TB_BOARD A
+            WHERE 1=1
+            <dynamic>
+                <isNotNull property="searchKeyword">
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="TITLE">
+                        TITLE LIKE '%' || #searchKeyword# || '%'
+                    </isEqual>
+                    <isEqual prepend=" AND " property="searchCondition" compareValue="CONTENTS">
+                        CONTENTS LIKE '%' || #searchKeyword# || '%' 
+                    </isEqual>
+                </isNotNull>
+            </dynamic>
+            ORDER BY A.REG_ID DESC 
+            LIMIT #recordCountPerPage# OFFSET #firstIndex#
+    </select>
+    
+    <insert id="nexacroSample.insertSampleVO" parameterClass="nexacroSampleVO">
+        <![CDATA[
+            INSERT INTO TB_BOARD (
+                TITLE,
+                REG_ID,
+                CONTENTS,
+                COMMUNITY_ID
+            ) VALUES (
+                #title#,
+                #regId#,
+                #contents#,
+                #communityId#
+            )
+        ]]>
+    </insert>
+    
+      <update id="nexacroSample.updateSampleVO" parameterClass="nexacroSampleVO">
+        <![CDATA[
+            UPDATE TB_BOARD 
+            SET TITLE=#title#
+                , REG_ID=#regId#
+                , CONTENTS=#contents#
+                , COMMUNITY_ID=#communityId#
+            WHERE POST_ID=#postId#
+        ]]>
+    </update>
+    
+    <delete id="nexacroSample.deleteSampleVO" parameterClass="nexacroSampleVO">
+        <![CDATA[
+            DELETE FROM TB_BOARD 
+            WHERE POST_ID=#postId#
+        ]]>
+    </delete>
+    
+    
+    <insert id="nexacroSample.insertSampleMap" parameterClass="Map">
+        <![CDATA[
+            INSERT INTO TB_BOARD (
+                TITLE,
+                REG_ID,
+                CONTENTS,
+                COMMUNITY_ID
+            ) VALUES (
+                #title#,
+                #regId#,
+                #contents#,
+                #communityId#
+            )
+        ]]>
+    </insert>
+    
+      <update id="nexacroSample.updateSampleMap" parameterClass="Map">
+        <![CDATA[
+            UPDATE TB_BOARD 
+            SET TITLE=#title#
+                , REG_ID=#regId#
+                , CONTENTS=#contents#
+                , COMMUNITY_ID=#communityId#
+            WHERE POST_ID=#postId#
+        ]]>
+    </update>
+    
+    <delete id="nexacroSample.deleteSampleMap" parameterClass="Map">
+        <![CDATA[
+            DELETE FROM TB_BOARD 
+            WHERE POST_ID=#postId#
+        ]]>
+    </delete>
+</sqlMap>

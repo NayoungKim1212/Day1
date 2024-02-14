@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Aug 19 15:22:55 KST 2022
+javaSDK-2.2-sources.jar>central=
+javaSDK-2.2.jar>central=
+javaSDK-2.2.pom>central=

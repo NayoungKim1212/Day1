@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Aug 18 12:23:20 KST 2020
+http\://mangosteen.tobesoft.co.kr/nexus/repository/maven-public/.error=Could not transfer artifact egovframework.rte\:egovframework.rte.psl.dataaccess\:jar\:sources\:3.6.0 from/to tobesoft (http\://mangosteen.tobesoft.co.kr/nexus/repository/maven-public/)\: Failed to transfer http\://mangosteen.tobesoft.co.kr/nexus/repository/maven-public/egovframework/rte/egovframework.rte.psl.dataaccess/3.6.0/egovframework.rte.psl.dataaccess-3.6.0-sources.jar. Error code 503, Service Unavailable
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact egovframework.rte\:egovframework.rte.psl.dataaccess\:jar\:sources\:3.6.0 from/to mvn2 (http\://repo1.maven.org/maven2/)\: Failed to transfer http\://repo1.maven.org/maven2/egovframework/rte/egovframework.rte.psl.dataaccess/3.6.0/egovframework.rte.psl.dataaccess-3.6.0-sources.jar. Error code 501, HTTPS Required
+@default-mvn2-http\://repo1.maven.org/maven2/.lastUpdated=1597721000783
+http\://www.egovframe.go.kr/maven/.lastUpdated=1597721000961
+@default-tobesoft-http\://mangosteen.tobesoft.co.kr/nexus/repository/maven-public/.lastUpdated=1597721000469

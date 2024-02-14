@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;uiadapter17-egov-sample/src/main/nxui - 복사본&apos;" deleteContents="false" description="Delete resource &apos;uiadapter17-egov-sample/src/main/nxui - 복사본&apos;" element1="/uiadapter17-egov-sample/src/main/nxui - 복사본" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1591162707483"/>
+</session>

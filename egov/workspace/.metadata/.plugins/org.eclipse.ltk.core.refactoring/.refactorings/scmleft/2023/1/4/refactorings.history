@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;scmleft/src/main/java/kr/happyjob/study/scm/service/NoticeMgrServiceImpl.java&apos; to &apos;NoticeMgrServiceImpl3333.java&apos;" description="Rename resource &apos;NoticeMgrServiceImpl.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/kr/happyjob/study/scm/service/NoticeMgrServiceImpl.java" name="NoticeMgrServiceImpl3333.java" stamp="1674783338350" updateReferences="true"/>
+</session>

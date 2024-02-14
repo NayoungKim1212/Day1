@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="Sample">
+
+    <typeAlias  alias="loginVO" type="com.nexacro.sample.vo.LoginVO"/>
+
+<!-- Sample resultObject -->
+    <resultMap id="user" class="loginVO">
+        <result property="id" column="LOGINID" />
+        <result property="usertype" column="USER_TYPE" />
+        <result property="userName" column="NAME" />
+    </resultMap>
+    
+ 	<select id="user.login" parameterClass="MAP" resultMap="user">
+             SELECT
+	                loginID AS LOGINID
+	               ,user_type AS USER_TYPE
+	               ,name  AS NAME
+            FROM tb_userinfo  
+            WHERE loginID = #id#
+	          AND password = #password#
+               
+    </select>
+</sqlMap>

@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 26 16:22:53 KST 2020
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.hamcrest\:hamcrest-parent\:pom\:1.1 from/to mvn2 (http\://repo1.maven.org/maven2/)\: Failed to transfer http\://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom. Error code 501, HTTPS Required
+http\://www.egovframe.go.kr/maven/.error=Could not transfer artifact org.hamcrest\:hamcrest-parent\:pom\:1.1 from/to egovframe (http\://www.egovframe.go.kr/maven/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+@default-mvn2-http\://repo1.maven.org/maven2/.lastUpdated=1585207373055
+https\://repo.maven.apache.org/maven2/.lastUpdated=1585207373456
+http\://maven.egovframe.kr\:8080/maven/.error=
+http\://maven.egovframe.kr\:8080/maven/.lastUpdated=1585207373127
+@default-egovframe-http\://www.egovframe.go.kr/maven/.lastUpdated=1585207373109

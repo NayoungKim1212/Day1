@@ -1,0 +1,1497 @@
+!SESSION 2024-02-13 11:33:24.888 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  openFile -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 openFile -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\egov\workspace\.metadata\.bak_0.log
+Created Time: 2024-02-13 11:36:33.276
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.276
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/WarehouseInfoServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.277
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/consupport/controller/ConSupportBController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.278
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/controller/DashboardScmController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.278
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/ScmReturnController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.279
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/service/DashboardScmServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.279
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/common/comnUtils/ImageController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.280
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/controller/DashboardDlmController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.281
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/controller/UserMgmtController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.282
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/service/DashboardPcmServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.282
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/controller/DashboardPcmController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.283
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/ScmPurchaseServicelmpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.283
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/community/controller/QnAController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.284
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/controller/ComnCodController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.285
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dlv/controller/DlvOutgoingController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.285
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/common/comnUtils/CommonProc.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.286
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/ScmOrderListController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.286
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/CategoryInfoServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.287
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/consupport/service/ConSupportCServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.287
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/service/DashboardGedServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.288
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ctm/service/CartServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.289
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/ScmPurchaseController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.289
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/supportD/controller/NoticeDController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.290
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/CusInfoServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.290
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/mainlogin/service/MainLoginServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.291
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/common/exception/CommonExceptionHandler.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.292
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/ScmReturnServicelmpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.292
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ecv/controller/EcvDirectionController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.293
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ecv/service/EcvDirectionServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.294
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/pcs/controller/RefundConller.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.294
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/ScmOrderListServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.295
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/login/controller/LoginController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.295
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ctm/service/OrderListServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.296
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/controller/ComnComboController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.296
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/usrMgr/controller/OfcInfoMgrController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.297
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/login/service/LoginServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.297
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/service/DashboardDlmServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.298
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/EmployeeInfoServicelmpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.298
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/consupport/controller/ConSupportCController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.299
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/supportD/service/NoticeDServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.299
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/mainlogin/controller/MainLoginController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.300
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/MainProductInfoServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.300
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/login/service/MailSendServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.301
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dlv/service/DlvReturnServicelmpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.301
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ctm/controller/OrderController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.302
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/service/NoticeServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.302
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/controller/DashboardEpcController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.303
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/service/ComnCodServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.303
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/community/service/QnAServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.304
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/pcs/service/RefundServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.304
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/SupplierInfoServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.305
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ctm/controller/OrderListController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.306
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/EmployeeInfoController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.306
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/SupplierInfoController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.307
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dlv/controller/DlvReturnController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.307
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/service/DashboardServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.308
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/pcs/controller/PcsController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.309
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/service/UserMgmtServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.309
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dlv/service/DlvOutgoingServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.310
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/ctm/controller/CartController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.310
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/common/socket/MessageHandler.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.311
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/system/controller/NoticeController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.311
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/sample/controller/SampleComnCodController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.312
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/MainProductInfoController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.312
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/service/ScmRefundListServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.313
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/dashboard/controller/DashboardGedController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.313
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/scm/controller/ScmOutgoingController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.314
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/consupport/service/ConSupportBServiceImpl.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.314
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/common/comnUtils/ComnCodUtil.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 0 2024-02-13 11:36:33.315
+!MESSAGE Error during AST class visiting
+!STACK 0
+java.io.FileNotFoundException: class path resource [kr/happyjob/study/usrMgr/controller/UsrInfoMgrController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:67)
+	at org.springframework.ide.eclipse.core.type.asm.CachingClassReaderFactory.getClassReader(CachingClassReaderFactory.java:61)
+	at org.springframework.ide.eclipse.core.type.asm.SimpleClassReaderFactory.getClassReader(SimpleClassReaderFactory.java:63)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.runAnnotationMetadataVisitor(AbstractAnnotationReadingMetadataProvider.java:133)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.getAnnotationMetadata(AbstractAnnotationReadingMetadataProvider.java:115)
+	at org.springframework.ide.eclipse.beans.core.metadata.model.AbstractAnnotationReadingMetadataProvider.provideBeanMetadata(AbstractAnnotationReadingMetadataProvider.java:69)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob$1.run(BeanMetadataBuilderJob.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadataToBean(BeanMetadataBuilderJob.java:191)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.attachMetadata(BeanMetadataBuilderJob.java:170)
+	at org.springframework.ide.eclipse.beans.core.metadata.internal.model.BeanMetadataBuilderJob.run(BeanMetadataBuilderJob.java:141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:39.216
+!MESSAGE properties loading for project 'Vuesample'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:39.217
+!MESSAGE loading file 'happyjob.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:39.217
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:39.218
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2024-02-13 11:36:44.995
+!MESSAGE src/main/resources/sql/consupport [in sscm] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/main/resources/sql/consupport [in sscm] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1176)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2024-02-13 11:36:44.995
+!MESSAGE src/main/resources/sql/consupport [in sscm] is not on its project's build path
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:45.535
+!MESSAGE properties loading for project 'sscm'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:45.536
+!MESSAGE loading file 'happyjob.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:45.536
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:36:45.537
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2024-02-13 11:39:17.641
+!MESSAGE cacheFile=file:/D:/egov/3.6/eGovFrameDev-3.6.0-64bit/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-02-13 11:39:17.729
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-02-13 11:39:17.957
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-02-13 11:39:24.499
+!MESSAGE Connection to http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/mars/site.xml failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-02-13 11:39:30.515
+!MESSAGE Connection to http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/mars/p2.index failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-02-13 11:39:33.599
+!MESSAGE Connection to http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/mars/site.xml failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:39:36.776
+!MESSAGE properties loading for project 'Servers3'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:39:36.777
+!MESSAGE loading file 'catalina.properties'
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-02-13 11:39:39.656
+!MESSAGE Connection to http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/mars/p2.index failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2024-02-13 11:40:17.262
+!MESSAGE cacheFile=file:/D:/egov/3.6/eGovFrameDev-3.6.0-64bit/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2024-02-13 11:41:15.094
+!MESSAGE cacheFile=file:/D:/egov/3.6/eGovFrameDev-3.6.0-64bit/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:41:26.898
+!MESSAGE properties loading for project 'Servers3'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:41:26.899
+!MESSAGE loading file 'catalina.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2024-02-13 11:41:26.900
+!MESSAGE loading file 'catalina.properties'

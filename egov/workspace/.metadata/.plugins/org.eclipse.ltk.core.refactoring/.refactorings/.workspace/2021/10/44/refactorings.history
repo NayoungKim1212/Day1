@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;common_module/src/main/java/kr/happyjob/study/system/controller/ComnCodController2.java&apos;" deleteContents="false" description="Delete resource &apos;common_module/src/main/java/kr/happyjob/study/system/controller/ComnCodController2.java&apos;" element1="/common_module/src/main/java/kr/happyjob/study/system/controller/ComnCodController2.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1635145219056"/>
+</session>

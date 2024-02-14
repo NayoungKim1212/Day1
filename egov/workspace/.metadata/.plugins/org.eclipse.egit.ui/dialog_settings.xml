@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="634" key="DIALOG_WIDTH"/>
+	<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+	<item value="true" key="CommitDialog.showUntracked"/>
+	<item value="537" key="DIALOG_HEIGHT"/>
+	<item value="71" key="DIALOG_X_ORIGIN"/>
+	<item value="285" key="DIALOG_Y_ORIGIN"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/pogoks/Leaf.git"/>
+		<item value="https://github.com/SungJin-HappyJobKorea/happyjobkorea.git"/>
+		<item value="https://github.com/kimdyudyu/happyjob.git"/>
+		<item value="https://github.com/dbserver-dev/jlms.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="kwh &lt;dngus000@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="kwh &lt;dngus000@gmail.com&gt;"/>
+		<item value="kwh &lt;dngus000@gmail.com&gt;s"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="668" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="495" key="DIALOG_HEIGHT"/>
+		<item value="607" key="DIALOG_X_ORIGIN"/>
+		<item value="290" key="DIALOG_Y_ORIGIN"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item value="934" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="710" key="DIALOG_HEIGHT"/>
+		<item value="502" key="DIALOG_X_ORIGIN"/>
+		<item value="51" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.CheckoutDialog.dialogBounds">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="531" key="DIALOG_HEIGHT"/>
+		<item value="663" key="DIALOG_X_ORIGIN"/>
+		<item value="170" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item value="618" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="495" key="DIALOG_HEIGHT"/>
+		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="194" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

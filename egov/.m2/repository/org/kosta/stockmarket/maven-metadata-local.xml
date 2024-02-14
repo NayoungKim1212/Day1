@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.kosta</groupId>
+  <artifactId>stockmarket</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-BUILD-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200427082734</lastUpdated>
+  </versioning>
+</metadata>

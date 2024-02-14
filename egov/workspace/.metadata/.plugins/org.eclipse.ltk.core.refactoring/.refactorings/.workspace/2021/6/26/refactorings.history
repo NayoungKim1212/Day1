@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 5 resources" deleteContents="false" description="Delete 5 resources" element1="/lmsjune/src/main/java/kr/happyjob/study/dashboard/controller/DashboardDlmController.java" element2="/lmsjune/src/main/java/kr/happyjob/study/dashboard/controller/DashboardEpcController.java" element3="/lmsjune/src/main/java/kr/happyjob/study/dashboard/controller/DashboardGedController.java" element4="/lmsjune/src/main/java/kr/happyjob/study/dashboard/controller/DashboardPcmController.java" element5="/lmsjune/src/main/java/kr/happyjob/study/dashboard/controller/DashboardScmController.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1624605235089"/>
+</session>

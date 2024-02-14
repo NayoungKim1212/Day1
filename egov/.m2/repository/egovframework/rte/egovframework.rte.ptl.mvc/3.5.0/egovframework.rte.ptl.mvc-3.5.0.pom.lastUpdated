@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue May 12 10:24:13 KST 2020
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact egovframework.rte\:egovframework.rte.ptl.mvc\:pom\:3.5.0 from/to mvn2 (http\://repo1.maven.org/maven2/)\: Failed to transfer http\://repo1.maven.org/maven2/egovframework/rte/egovframework.rte.ptl.mvc/3.5.0/egovframework.rte.ptl.mvc-3.5.0.pom. Error code 501, HTTPS Required
+@default-mvn2-http\://repo1.maven.org/maven2/.lastUpdated=1589246653111
+http\://www.egovframe.go.kr/maven/.error=Could not transfer artifact egovframework.rte\:egovframework.rte.ptl.mvc\:pom\:3.5.0 from/to egovframe (http\://www.egovframe.go.kr/maven/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+https\://repo.maven.apache.org/maven2/.lastUpdated=1589246653918
+@default-egovframe-http\://www.egovframe.go.kr/maven/.lastUpdated=1589246653174
+https\://repo.maven.apache.org/maven2/.error=

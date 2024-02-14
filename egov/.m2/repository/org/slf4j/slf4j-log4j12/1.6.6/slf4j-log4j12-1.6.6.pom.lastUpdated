@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Apr 01 09:07:36 KST 2020
+http\://repo.spring.io/libs-milestone/.error=Could not transfer artifact org.slf4j\:slf4j-log4j12\:pom\:1.6.6 from/to mesir-repo (http\://repo.spring.io/libs-milestone/)\: Access denied to http\://repo.spring.io/libs-milestone/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.pom. Error code 403, Forbidden
+https\://repo.maven.apache.org/maven2/.lastUpdated=1585699656759
+@default-mesir-repo-http\://repo.spring.io/libs-milestone/.lastUpdated=1585699656471

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 26 16:10:39 KST 2024
+junit-jupiter-params-5.8.2.jar>central=
+junit-jupiter-params-5.8.2-sources.jar>central=
+junit-jupiter-params-5.8.2.pom>central=

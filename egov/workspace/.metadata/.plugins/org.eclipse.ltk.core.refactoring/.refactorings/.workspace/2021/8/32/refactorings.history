@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/pcjune/LMS_기확서v1.1.pptx" element2="/pcjune/lms_화면정의서_V1.1.pptx" element3="/pcjune/lmsjune_menu.xlsx" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1628125698586"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;uiadapter17-egov-sample-medical/DIGITAL PC방-UI정의서_V1.1.ppt&apos;" deleteContents="false" description="Delete resource &apos;uiadapter17-egov-sample-medical/DIGITAL PC방-UI정의서_V1.1.ppt&apos;" element1="/uiadapter17-egov-sample-medical/DIGITAL PC방-UI정의서_V1.1.ppt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1609199656456"/>
+</session>

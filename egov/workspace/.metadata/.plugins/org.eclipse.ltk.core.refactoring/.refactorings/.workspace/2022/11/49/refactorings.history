@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;otheqoo/src/main/java/com/myhome/otheqoo/dao/BoardDaoImpl.java&apos;" deleteContents="false" description="Delete resource &apos;otheqoo/src/main/java/com/myhome/otheqoo/dao/BoardDaoImpl.java&apos;" element1="/otheqoo/src/main/java/com/myhome/otheqoo/dao/BoardDaoImpl.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1669770406135"/>
+</session>

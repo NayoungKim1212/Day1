@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 26 16:23:03 KST 2020
+http\://www.terracotta.org/download/reflector/releases/.lastUpdated=1585207383611
+@default-egovframe-http\://www.egovframe.go.kr/maven/.lastUpdated=1585207382589
+@default-mvn2-http\://repo1.maven.org/maven2/.lastUpdated=1585207382531
+http\://www.egovframe.go.kr/maven/.error=Could not transfer artifact org.terracotta.forge\:forge-parent\:pom\:2.0 from/to egovframe (http\://www.egovframe.go.kr/maven/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://maven.egovframe.kr\:8080/maven/.error=
+http\://maven.egovframe.kr\:8080/maven/.lastUpdated=1585207382619
+https\://repo.maven.apache.org/maven2/.lastUpdated=1585207382768
+https\://repo.maven.apache.org/maven2/.error=
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.terracotta.forge\:forge-parent\:pom\:2.0 from/to mvn2 (http\://repo1.maven.org/maven2/)\: Failed to transfer http\://repo1.maven.org/maven2/org/terracotta/forge/forge-parent/2.0/forge-parent-2.0.pom. Error code 501, HTTPS Required

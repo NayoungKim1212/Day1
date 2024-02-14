@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Aug 19 15:23:14 KST 2022
+plexus-interpolation-1.14-sources.jar>central=
+plexus-interpolation-1.14.jar>central=
+plexus-interpolation-1.14.pom>central=
