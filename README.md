@@ -6,4 +6,4 @@
 
 ##### 서버 추가
 
-- 우클릭 New -> Server -> 톰캣 설정 -> Vuesample add -> 
+- 우클릭 New -> Server -> 톰캣 설정 -> Vuesample add
